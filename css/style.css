@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.father {
+    width: 550px;
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+}
+.father::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 280px;
+    background-color: #03a9f4;
+    left: 274px;
+    bottom: 14px;
+}
+.father::after {
+    content: "Or";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    border-radius: 50%;
+    bottom: 130px;
+    left: 262px;
+    background-color: #03a9f4;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+}
+.s1 {
+    background-color: #eee;
+    width: 250px;
+    height: 280px;
+    padding: 10px;
+    margin: 10px 13px 10px 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 1px;
+    position: relative;
+}
+.s1::before {
+    content: "Basic";
+    width: 200px;
+    height: 50px;
+    background-color: #03a9f4;
+    position: absolute;
+    color: white;
+    line-height: 50px;
+    font-weight: bold;
+    left: 27px;
+    bottom: 212px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.s1::after {
+    content: "Free";
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #e2e1e1;
+    position: absolute;
+    left: 37px;
+    bottom: 15px;
+    line-height: 177px;
+    font-size: 40px;
+}
+.s2 {
+    background-color: #eee;
+    width: 250px;
+    height: 280px;
+    padding: 10px;
+    margin: 10px 10px 10px 12px;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 1px;
+    position: relative;
+}
+.s2::before {
+    content: "Pro";
+    width: 200px;
+    height: 50px;
+    background-color: #03a9f4;
+    position: absolute;
+    color: white;
+    line-height: 50px;
+    font-weight: bold;
+    left: 27px;
+    bottom: 212px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.s2::after {
+    content: "$30";
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #e2e1e1;
+    position: absolute;
+    left: 37px;
+    bottom: 15px;
+    line-height: 177px;
+    font-size: 40px;
+}
